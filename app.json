@@ -9,19 +9,28 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#CEE2FF"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.seuusuario.seuprojeto",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#CEE2FF"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-build-properties"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9748cb57-8c12-4a55-baa8-85b16595cbde"
+      }
     }
   }
 }
